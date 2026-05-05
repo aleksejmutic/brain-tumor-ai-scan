@@ -1,0 +1,45 @@
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (large)
+data/
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.npy
+*.npz
+
+# Trained models
+models/
+*.h5
+*.keras
+*.pb
+*.pkl
+
+# Logs and history
+*.log
+scratch_history.json
+*.json
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Misc
+*.tmp
+*.bak
