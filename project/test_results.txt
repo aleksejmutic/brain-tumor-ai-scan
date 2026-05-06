@@ -1,0 +1,20 @@
+Test accuracy: 0.9112
+Test loss: 1.2190
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      glioma       0.97      0.80      0.88       400
+  meningioma       0.95      0.85      0.90       400
+     notumor       0.80      1.00      0.89       400
+   pituitary       0.97      0.99      0.98       400
+
+    accuracy                           0.91      1600
+   macro avg       0.92      0.91      0.91      1600
+weighted avg       0.92      0.91      0.91      1600
+
+Confusion matrix:
+[[319  17  61   3]
+ [  8 342  40  10]
+ [  0   0 400   0]
+ [  1   1   1 397]]
